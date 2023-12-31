@@ -8,7 +8,7 @@ Weather Application using only **HTML**, **CSS** and **JavaScript**. With **[Ope
 ![Logo](https://github.com/HoshangDEV/Weather-App/blob/main/weather.png?raw=true)
 
 
-## Need
+## Requirements
 
 You should create an account in **[Openweathermap API](https://openweathermap.org/api)** to get your own API Key.
 
