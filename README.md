@@ -5,14 +5,18 @@ Weather Application using only **HTML**, **CSS** and **JavaScript**. With **[Ope
 
 
 
-
-
 ![Logo](https://github.com/HoshangDEV/Weather-App/blob/main/weather.png?raw=true)
 
 
 ## Need
 
 You should create an account in **[Openweathermap API](https://openweathermap.org/api)** to get your own API Key.
+
+
+
+## Preview Screenshot
+
+![Preview](https://github.com/HoshangDEV/Weather-App/blob/main/preview-screenshot.png?raw=true)
 
 
 ## Authors
