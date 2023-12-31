@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div>
+      <label for="search" class="searchBar">
+        <input
+          type="text"
+          class="search"
+          placeholder="Search"
+          id="searchInput"
+          onkeypress="if(event.keyCode == 13) getWeather()" />
+        <button class="searchBtn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-search">
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.3-4.3" />
+          </svg>
+        </button>
+      </label>
+    </div>
+    <div class="cardContainer">
+      <div class="card">
+        <p class="city">-</p>
+        <p class="weather">-</p>
+        <img src="./weather.png" alt="weather image" class="weatherImg" />
+        <p class="temp">-</p>
+        <div class="minmaxContainer">
+          <div class="min">
+            <p class="minHeading">Min</p>
+            <p class="minTemp">-</p>
+          </div>
+          <div class="max">
+            <p class="maxHeading">Max</p>
+            <p class="maxTemp">-</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
